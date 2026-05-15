@@ -95,10 +95,7 @@ The dashboard includes multiple interactive visualizations to analyze BMW sales 
 ### Visualizations Included
 
 - Average Revenue by Year
-- Average Revenue by Region<img width="1865" height="696" alt="BMW-DASHBOARD" src="https://github.com/user-attachments/assets/dbeae811-492d-4512-a901-7838f3eafbd2" />
-<img width="1865" height="696" alt="BMW-DASHBOARD" src="https://github.com/user-attachments/assets/e37f9370-68ca-496f-a040-6035e1e5c089" />
-<img width="1865" height="696" alt="Screenshot 2026-05-15 114227" src="https://github.com/user-attachments/assets/6a146dcf-bb4c-4c5a-93b5-4e1f22c6976f" />
-
+- Average Revenue by Region
 - Average Price by Model
 - Total Units Sold by Model
 - Average GDP Growth by Year
