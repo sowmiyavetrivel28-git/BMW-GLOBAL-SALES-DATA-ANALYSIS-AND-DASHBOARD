@@ -1,88 +1,165 @@
-BMW GLOBAL SALES DATA ANALYSIS AND DASHBOARD
+#  BMW Global Sales Data Analysis & Dashboard
 
-Project Overview
-This project focuses on analyzing BMW global sales data from 2018 to 2025 using Microsoft Excel and Power Query. The objective is to identify trends, compare regional performance, and generate meaningful business insights through an interactive dashboard.
+##  Project Overview
 
-Objectives
+This project focuses on analyzing BMW global sales data from 2018 to 2025 using Microsoft Excel and Power Query. The objective is to identify sales trends, compare regional performance, evaluate model-wise performance, and generate meaningful business insights through an interactive dashboard.
 
-Analyze revenue trends over the years
-Compare region-wise sales performance
-Evaluate model-wise pricing and sales
-Understand premium share impact on revenue
-Perform data cleaning and transformation
-Build an interactive dashboard
-Generate key business insights
+The project demonstrates how Excel can be used for end-to-end data analysis, including data cleaning, transformation, visualization, and dashboard creation.
 
-Dataset Information
+---
 
-Dataset: BMW Global Sales Data
-Time Period: 2018–2025
-Format: Excel (.xlsx)
-Key Fields: Revenue, Units Sold, Average Price, GDP Growth, Premium Share, Region, Model, Year
+#  Project Objectives
 
-Tools and Technologies
+- Analyze yearly revenue trends
+- Compare region-wise sales performance
+- Evaluate model-wise pricing and unit sales
+- Understand the impact of premium share on revenue
+- Perform data cleaning and transformation
+- Build an interactive and user-friendly dashboard
+- Generate meaningful business insights for decision-making
 
-Microsoft Excel
-Power Query
-Pivot Tables
-Pivot Charts
-Excel Functions (IF, IFS, AND, OR, NOT)
+---
 
-Data Cleaning
+#  Dataset Information
 
-Removed duplicate records
-Verified dataset (no null values present)
-Standardized column names
-Corrected data types using Power Query
+- **Dataset Name:** BMW Global Sales Data
+- **Time Period:** 2018 – 2025
+- **File Format:** Excel (.xlsx)
 
-Data Transformation
+### Key Fields
 
-Created calculated columns using logical functions
-Converted revenue into Million (M EUR)
-Built Pivot Tables for analysis
+- Revenue
+- Units Sold
+- Average Price
+- GDP Growth
+- Premium Share
+- Region
+- Model
+- Year
 
-Dashboard Features
+---
 
-Year-wise revenue trend
-Region-wise sales analysis
-Model-wise performance comparison
-Average price insights
-Premium share distribution
+#  Tools & Technologies Used
 
-Filters Used
+- Microsoft Excel
+- Power Query
+- Pivot Tables
+- Pivot Charts
+- Excel Functions
+  - IF
+  - IFS
+  - AND
+  - OR
+  - NOT
 
-Year
-Region
-Model
+---
 
-Key Insights
+#  Data Cleaning
 
-Descriptive Analysis (What happened?)
+The dataset was cleaned and prepared using Excel and Power Query.
 
-Revenue increased from 460M EUR (2018) to 561M EUR (2025)
-China has the highest average revenue (~523M EUR), followed by Europe and USA
+### Steps Performed
 
-Diagnostic Analysis (Why it happened?)
+- Removed duplicate records
+- Verified dataset for null values
+- Standardized column names
+- Corrected data types using Power Query
+- Ensured data consistency and accuracy
 
-Premium models like X7 and iX contribute significantly to revenue
-Regions with higher premium share generate more revenue
+---
 
-Predictive Analysis (What will happen?)
+#  Data Transformation
 
-Revenue is expected to continue growing beyond 561M EUR
-Demand for premium models is likely to increase
+Several transformations were performed to improve analysis and reporting.
 
-Prescriptive Analysis (What should be done?)
+### Transformation Process
 
-Focus on expanding premium models like X7 and iX
-Improve premium share in low-performing regions
-Optimize pricing strategies for better revenue
+- Created calculated columns using logical functions
+- Converted revenue values into Million EUR format
+- Built Pivot Tables for summary analysis
+- Organized data for dashboard visualization
 
-Project Files
+---
 
-BMW Dataset.xlsx – Dataset used for analysis
-Dashboard – Excel dashboard with visualizations
-README – Project documentation
+#  Dashboard
 
-Conclusion
-This project demonstrates how Excel can be used for end-to-end data analysis, including data cleaning, transformation, and dashboard creation. It highlights the importance of data-driven decision-making.
+## Dashboard Preview
+
+---<img width="1865" height="696" alt="BMW-DASHBOARD" src="https://github.com/user-attachments/assets/06377bf3-0df2-4c8f-9c08-0e95c9c1834e" />
+
+
+#  Dashboard Features
+
+The dashboard includes multiple interactive visualizations to analyze BMW sales performance.
+
+### Visualizations Included
+
+- Average Revenue by Year
+- Average Revenue by Region<img width="1865" height="696" alt="BMW-DASHBOARD" src="https://github.com/user-attachments/assets/dbeae811-492d-4512-a901-7838f3eafbd2" />
+<img width="1865" height="696" alt="BMW-DASHBOARD" src="https://github.com/user-attachments/assets/e37f9370-68ca-496f-a040-6035e1e5c089" />
+<img width="1865" height="696" alt="Screenshot 2026-05-15 114227" src="https://github.com/user-attachments/assets/6a146dcf-bb4c-4c5a-93b5-4e1f22c6976f" />
+
+- Average Price by Model
+- Total Units Sold by Model
+- Average GDP Growth by Year
+- Premium Share by Region
+
+### Interactive Filters
+
+- Year
+- Region
+- Model
+- Clear All Slicer button
+
+---
+
+#  Key Insights
+
+##  Descriptive Analysis (What Happened?)
+
+- Revenue increased from approximately **460M EUR in 2018** to **561M EUR in 2025**
+- China recorded the highest average revenue among all regions
+- Premium SUV models generated strong sales performance
+- Revenue growth remained consistent across most years
+
+---
+
+##  Diagnostic Analysis (Why Did It Happen?)
+
+- Premium models such as **X7** and **iX** contributed significantly to overall revenue
+- Regions with higher premium market share generated better revenue performance
+- Growing customer preference for luxury SUVs increased sales
+
+---
+
+##  Predictive Analysis (What Could Happen?)
+
+- Revenue is expected to continue growing beyond 2025
+- Demand for premium and electric vehicle models may increase further
+- High-performing regions are likely to contribute more future revenue
+
+---
+
+##  Prescriptive Analysis (What Should Be Done?)
+
+- Expand premium model offerings such as X7 and iX
+- Improve premium market share in low-performing regions
+- Optimize pricing strategies to maximize profitability
+- Focus more on high-demand SUV and electric vehicle segments
+
+---
+
+# Project Files
+
+- **BMW Dataset.xlsx** → Dataset used for analysis
+- **Dashboard.xlsx** → Interactive Excel dashboard
+- **README.md** → Project documentation
+
+---
+
+#  Conclusion
+
+This project demonstrates how Microsoft Excel can be effectively used for complete data analysis and dashboard development. Through data cleaning, transformation, visualization, and business insight generation, the dashboard helps in understanding BMW’s global sales performance and supports data-driven decision-making.
+
+---
+
